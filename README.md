@@ -4,7 +4,7 @@
 
 Live application: [shuaqi.uk](https://shuaqi.uk).
 
-This repository contains the full SHUAQI application. My contribution focuses on
+[Download the complete application source](Shuaqi-App-Source.zip). The recommendation core is also directly browsable in `server/utils/reco/`, with its API entry point in `server/api/recommendations.post.ts`. My contribution focuses on
 activity recommendation: ranking design, dynamic per-user weighting, bilingual
 LLM-assisted matching, query expansion and embeddings, service interfaces, and
 recommendation integration and testing. A teammate developed the frontend and backend
