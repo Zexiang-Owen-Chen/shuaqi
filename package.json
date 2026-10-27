@@ -1,0 +1,44 @@
+{
+  "name": "shuaqi-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest run --passWithNoTests",
+    "test:adaptive": "node --test tests/adaptive-core.mjs",
+    "test:db": "supabase test db",
+    "typecheck": "nuxi typecheck",
+    "db:types": "supabase gen types typescript --local > app/types/database.types.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "@nuxtjs/supabase": "^2.1.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vite-pwa/nuxt": "^1.1.1",
+    "leaflet": "^1.9.4",
+    "nuxt": "^4.6.2",
+    "qr-scanner": "1.4.2",
+    "qrcode": "^1.5.4",
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0",
+    "web-push": "^3.6.7",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/leaflet": "^1.9.22",
+    "@types/qrcode": "^1.5.6",
+    "@types/web-push": "^3.6.4",
+    "supabase": "^2.121.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5",
+    "vue-tsc": "^3.3.13"
+  },
+  "packageManager": "pnpm@10.28.0"
+}

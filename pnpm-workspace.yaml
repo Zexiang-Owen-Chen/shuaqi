@@ -1,0 +1,5 @@
+onlyBuiltDependencies:
+  - esbuild
+  - supabase
+  - '@parcel/watcher'
+  - vue-demi

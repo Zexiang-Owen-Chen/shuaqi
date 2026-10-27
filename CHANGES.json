@@ -1,0 +1,107 @@
+[
+  {
+    "file": ".env.example",
+    "status": "modified",
+    "sha256": "87adeac3761aa3c9b13dbe1a0f79b99db5cda9cba847b1e72b81567e52807a7d"
+  },
+  {
+    "file": ".gitignore",
+    "status": "modified",
+    "sha256": "9d6d775c725c45743abf3e9838aae39077ae9326269397863782b91d865e6aa9"
+  },
+  {
+    "file": "VALIDATION.md",
+    "status": "added",
+    "sha256": "40a53bb3f589d3345bc4d880df677094d71309fe0590f4f9ed2558f49271f0f6"
+  },
+  {
+    "file": "app/types/database.types.ts",
+    "status": "modified",
+    "sha256": "610bd9ab26fae425da29670b11cd12f1e2290ab2a2b09e2cf3eecf6be4dbcb0c"
+  },
+  {
+    "file": "docs/dynamic-weights.md",
+    "status": "added",
+    "sha256": "07744a4b6459829abdbbf90c3b94dd609b611666dd0d1a535781a2a0b731f2f8"
+  },
+  {
+    "file": "docs/recommendations.md",
+    "status": "modified",
+    "sha256": "cb81c377639dfc535a617b597f05807b7481835cfe0eeb4b423cee3829ae80e2"
+  },
+  {
+    "file": "docs/semantic-expansion.md",
+    "status": "added",
+    "sha256": "4b916ebaeb6e40f7640b7cbc1d66e9c77cbf2496d88ce99cf109c50ce7377cbf"
+  },
+  {
+    "file": "package.json",
+    "status": "modified",
+    "sha256": "68bc0d3d5d2b684d3c6dfb4fd494eb304bd8667fdc3a5afeacd9d979ff09f32c"
+  },
+  {
+    "file": "server/api/recommendations.post.ts",
+    "status": "modified",
+    "sha256": "98c94675e53c59cad9c03076df6b3fd05eaec38aa7ec6d717ca8a7db398756eb"
+  },
+  {
+    "file": "server/utils/reco/adaptive.ts",
+    "status": "added",
+    "sha256": "3ca05e61c48711b3d500d98e42446ab212f25a400e65d3abed3fd4e2157e700f"
+  },
+  {
+    "file": "server/utils/reco/expansion.ts",
+    "status": "added",
+    "sha256": "cd0066d7f452ae46eab0d0522163b9f0249bf4b174e579565a07a1dc30779799"
+  },
+  {
+    "file": "server/utils/reco/llm.ts",
+    "status": "modified",
+    "sha256": "d4500bf38b6f8ec66b62ae0651774a8df4ce28424ffee2452b38d80d31dc18e6"
+  },
+  {
+    "file": "server/utils/reco/score.ts",
+    "status": "modified",
+    "sha256": "d3bddf058599bee56e1b2975c13a11de0c94b1b65dc835f27b5392924c9ab05a"
+  },
+  {
+    "file": "server/utils/reco/types.ts",
+    "status": "modified",
+    "sha256": "e2ed80db39a3b664c0ecf7c813e2bee8ec07eab15ed8bf430283ad5836776751"
+  },
+  {
+    "file": "supabase/migrations/20261027000001_adaptive_recommendations.sql",
+    "status": "added",
+    "sha256": "4412ebbfefd6aeaebdcc36e5cdd76514521db0549c2e49bd66ebad0a930bf6be"
+  },
+  {
+    "file": "supabase/migrations/20261027000002_semantic_retrieval.sql",
+    "status": "added",
+    "sha256": "3759cabd4c5f3d77f24961016c6f82fdf779dca0ed6a1878515b5ab68fcae2c9"
+  },
+  {
+    "file": "supabase/tests/09_adaptive_recommendations.test.sql",
+    "status": "added",
+    "sha256": "c0b61fb516759c40493c2c211affa5247659a0d9a3b51e4f3d5a892db7f41615"
+  },
+  {
+    "file": "tests/adaptive-core.mjs",
+    "status": "added",
+    "sha256": "bb2bb36e27282d791f20e408432c2cb15f50911a7861bce42c23d53a12cc2f78"
+  },
+  {
+    "file": "tests/unit/expansion.test.ts",
+    "status": "added",
+    "sha256": "6991419a6742180e80d1c7e7e9aaa070dbfc92b911becabe2a8cb57a64e812e3"
+  },
+  {
+    "file": "动态加权接入说明.md",
+    "status": "added",
+    "sha256": "bd2d9ceb558b610c0ffd2ef13fb003b6c867427684208791cc4bf11e6d247aa2"
+  },
+  {
+    "file": "给开发者.txt",
+    "status": "added",
+    "sha256": "64414a3e968815c0ab3f7703e01c0a1449cd7bee640e9fd8d369689e7679eaea"
+  }
+]
